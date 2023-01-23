@@ -1,6 +1,12 @@
 function sim() {
-    alert("Sim!!")
 
+    setTimeout(() => {
+        document.getElementsByClassName('content')[0].src = './public/assets/fireworks.gif';
+    }, 500);
+
+    alert("Ela disse Sim!!!! s2 s2")
+
+    /* window.location.href = "/public/pages/fireworks/fireworks.html" */
     document.getElementById('sim').style.margin = `${Math.random}vmax, ${Math.random}vmax`
 }
 
