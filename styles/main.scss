@@ -1,16 +1,7 @@
-#content{
-    z-index: -1;
-}
-
-div{
-    margin: 20vmax 30vmax;
-
-    div{
-        
-        margin: 1vmax 3vmax;
-    button{
-        z-index: 1;
-        margin: 1vmax 3vmax;
+.container {
+    text-align: center;
+    margin-top: 15vmax !important;
+    button {
+        margin-top: 3vmax;
     }
-}
 }
